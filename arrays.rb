@@ -34,3 +34,14 @@ friends[0] = "Khaela"
 fav_numbers[0] = 4
 quiz_answers[0] = true
 =end
+
+=begin
+An array method I've learned is .include? ().
+This method is used if you want to check if an array includes a specific element.
+For example,
+friends = ["Khaela", "Tyler", "Zuko"]
+friends.include? ("Yumiko") would return false, while
+friends.include? ("Zuko") would return true.
+It is important to note that this is case sensitive so if I were to search:
+friends.include? ("ZUKO") it would be returned as false.
+=end
