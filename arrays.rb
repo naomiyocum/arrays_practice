@@ -26,3 +26,11 @@ friends.pop()
 fav_numbers.pop()
 gpas.pop()
 quiz_answers.pop()
+
+=begin
+The index position is the position in which the element is placed in an array.
+An index position always starts at 0. For example,
+friends[0] = "Khaela"
+fav_numbers[0] = 4
+quiz_answers[0] = true
+=end
